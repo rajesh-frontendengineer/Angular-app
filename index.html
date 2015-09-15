@@ -13,17 +13,25 @@
     <link href="WebContent/assets/css/captain.css" rel="stylesheet">
 </head>
 <body>
-<header></header>
+<div id="home-page-title">Captain Shopping</div>
+<header ng-include="'WebContent/template/header.html'"></header>
+
+
 <section uiview>
 
 </section>
-<footer></footer>
+<footer ng-include="'template/footer.html'"></footer>
 
 <!--jQuery-->
-<script src="node_modules/jquery/src/jquery.js"></script>
-<!--Angularjs-->
+<script src="WebContent/assets/lib/jquery-2.1.4.min.js"></script>
+<!--AngularJS files-->
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/angular-route/angular-route.min.js"></script>
+<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="node_modules/angular-local-storage/src/angular-local-storage.js"></script>
+<!--Captain Script files-->
+<script src="WebContent/scripts/config.js"></script>
+<!--Controllers-->
+<!--Services-->
 </body>
 </html>
