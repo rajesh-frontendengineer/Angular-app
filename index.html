@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html ng-app="captainApp" lang="en">
+<html data-ng-app="captainApp" lang="en">
 <head>
-    <title> Project Just Started</title>
+    <title> Project Just Started </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Bootstrap core CSS -->
-    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="WebContent/assets/css/captain.css" rel="stylesheet">
+    <link rel="stylesheet" href="WebContent/assets/css/dashbord.css"/>
 </head>
 <body>
-<div id="home-page-title">Captain Shopping</div>
+
 <header ng-include="'WebContent/template/header.html'"></header>
 
-
-<section uiview>
-
+<section ui-view>
 </section>
-<footer ng-include="'template/footer.html'"></footer>
+
+
+
+<!--<footer ng-include="'WebContent/template/footer.html'"></footer>-->
 
 <!--jQuery-->
 <script src="WebContent/assets/lib/jquery-2.1.4.min.js"></script>
@@ -29,9 +31,19 @@
 <script src="node_modules/angular-route/angular-route.min.js"></script>
 <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="node_modules/angular-local-storage/src/angular-local-storage.js"></script>
+<!-- JavaScripts libraries-->
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 <!--Captain Script files-->
 <script src="WebContent/scripts/config.js"></script>
 <!--Controllers-->
+<!--<script src="WebContent/scripts/app.js"></script>-->
+<!--<script src="WebContent/controllers/home-page-ctrl.js"></script>-->
+<script src="WebContent/controllers/dash-board.js"></script>
+<!--<script src="WebContent/controllers/product-view-ctrl.js"></script>-->
+<!--<script src="WebContent/controllers/user-page-ctrl.js"></script>-->
+
 <!--Services-->
+<script src="WebContent/services/movie-service.js"></script>
 </body>
 </html>
