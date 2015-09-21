@@ -1,20 +1,39 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
+  "name": "captainapp",
+  "version": "1.0.0",
   "description": "npm install",
   "dependencies": {
     "angular": "~1.2.28",
-    "angular-route": "~1.2.28",
-    "angular-ui-router":"~0.2.15",
     "angular-local-storage": "~0.2.2",
-    "lodash": "^3.10.1",
+    "angular-route": "~1.2.28",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "^3.3.5",
+    "jshint": "^2.0.0",
     "less": "^2.0.0",
-    "jshint":"^2.0.0"
+    "lodash": "^3.10.1"
   },
   "author": "Rajesh Veldandi",
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "jquery": "2.1.1"
-  }
+    "jquery": "2.1.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajesh-frontendengineer/Angular-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajesh-frontendengineer/Angular-app/issues"
+  },
+  "homepage": "https://github.com/rajesh-frontendengineer/Angular-app#readme"
 }
