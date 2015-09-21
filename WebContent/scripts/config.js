@@ -26,16 +26,16 @@
                 controllerAs: 'uCtrl' //how it should be referred in the template
             })
             .state('Dash-Board.Overview', {
-                url:'/Dash-Board/Overview',
+                url:'/Overview',
                 templateUrl: 'WebContent/views/categories/overview.html', //url of the template
-                controller: 'OverViewCtrl',  //name of the controller
-                controllerAs: 'ovCtrl', //how it should be referred in the template
+                //controller: 'DashOverViewCtrl',  //name of the controller
+                //controllerAs: 'dovCtrl', //how it should be referred in the template
             })
             .state('Dash-Board.Analytics', {
-                url:'/Dash-Board/Analytics',
+                url:'/Analytics',
                 templateUrl: 'WebContent/views/categories/analytics.html', //url of the template
-                controller: 'AnalyticsCtrl',  //name of the controller
-                controllerAs: 'aCtrl', //how it should be referred in the template
+                //controller: 'AnalyticsCtrl',  //name of the controller
+                //controllerAs: 'aCtrl', //how it should be referred in the template
             })
 
         function LoadData($http){

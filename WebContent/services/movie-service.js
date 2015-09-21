@@ -13,7 +13,7 @@
         mvData.getData = function(){
             return $http({
                 method:'GET',
-                url:'/Angular-app/WebContent/json/amovie.json',
+                url:'/Angular-app/WebContent/json/movie.json',
                 dataType :'json',
                 //success: function( response ) {
                 //    console.log( response ); // server response
