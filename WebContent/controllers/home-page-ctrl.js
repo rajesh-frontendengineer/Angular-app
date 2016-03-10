@@ -7,7 +7,7 @@
 
     angular.module('captainApp').controller('HomeCtrl',['movieService',HomeControl]);
     function HomeControl(movieService){
-
+            // My second file
         var hCtrl = this;
         hCtrl.na = 'Ajax';
         console.log(hCtrl.na);
